@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Notes from Jonathan McGlone</title>
+ <link href="http://jmcglone.com/notes/atom.xml" rel="self"/>
+ <link href="http://jmcglone.com/notes/"/>
+ <updated>2017-11-12T17:47:57-05:00</updated>
+ <id>http://jmcglone.com/notes/</id>
+ <author>
+   <name>Jonathan McGlone</name>
+   <email>jwmcglone@gmail.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>Using GitHub to Create and Host a Personal Website</title>
+   <link href="http://jmcglone.com/notes/2014/05/03/using-github-to-create-and-host-a-personal-website"/>
+   <updated>2014-05-03T00:00:00-04:00</updated>
+   <id>http://jmcglone.com/notes/notes/2014/05/03/using-github-to-create-and-host-a-personal-website</id>
+   <content type="html">&lt;p&gt;This is an overdue note about my switch to using GitHub and Jekyll for this website.&lt;/p&gt;
+
+&lt;p&gt;After 10+ years using WordPress I finally made the switch to GitHub Pages (confession: I still use WordPress for certain projects at work). My switch largely centered around this rant that played itself out quite frequently in my head:&lt;/p&gt;
+
+&lt;p&gt;When you want something simple, having a WordPress site often comes with a lot of other things: a web hosting plan, updating plugins, monitoring auto-updates so your site’s template and functionality don’t break, a MySQL database, dealing with being a target for hackers, a lot of clicking around and fussing with settings, hacking Thesis, and on and on. &lt;!-- flesh the previous sentence out with links --&gt; For a personal website that features just few pages, a CV, and maybe a place to write blog posts and link to your social media accounts and departmental web pages – or just experiment around with the awesomeness of HTML5 &lt;!-- flesh this out with links to codepen stuff or --&gt; and the amazing things you can do with client side scripting &lt;!-- ahem, more links --&gt;, WordPress is bloated.&lt;/p&gt;
+
+&lt;p&gt;Do I really need to make a database call to serve an About page with less than 500 words on it? No. Do I want a bunch of third-party scripts from whatever plugin author(s) just to have social sharing tools? No. Do I want to have to hack PHP in an existing WordPress template to adjust the banner for my logo or to just simplify the user experience? No. I still want to be able to get up and running in less than five minutes, but can’t it be a little lighter?&lt;/p&gt;
+
+&lt;p&gt;So I made a wishlist of the things I wanted for a personal website:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;simplicity&lt;/li&gt;
+  &lt;li&gt;good performance and reliability&lt;/li&gt;
+  &lt;li&gt;no databases&lt;/li&gt;
+  &lt;li&gt;hosting to be free or really cheap&lt;/li&gt;
+  &lt;li&gt;a custom domain&lt;/li&gt;
+  &lt;li&gt;the ability to work on my site from anywhere if needed&lt;/li&gt;
+  &lt;li&gt;to use open source tools supported by an active development community&lt;/li&gt;
+  &lt;li&gt;to get up and running quickly&lt;/li&gt;
+  &lt;li&gt;to have version control on my website, preferably Git&lt;/li&gt;
+  &lt;li&gt;to be able to share my code so others can easily re-use it&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://staticgen.com/&quot;&gt;There are a lot of lightweight CMS options out there&lt;/a&gt;, but I fell for the GitHub + Jekyll toolchain. It’s well known and now pretty established, and the partnership it has developed with Jekyll developers (it’s based in Ruby) and its use of Markdown to separate content from markup just seemed to click with me as a digital publisher. It may not be for everybody, but after an afternoon playing around with and getting over the learning curve, I think it can be for a lot more than developers.&lt;/p&gt;
+
+&lt;p&gt;That’s why after building my site from scratch (along with the help of Bootstrap), I’ve finally taken it a step further and created a &lt;a href=&quot;/guides/github-pages/&quot; title=&quot;Creating and Hosting a Personal Site on GitHub&quot;&gt;beginner’s guide to getting started building and hosting a personal website and blog with GitHub Pages and Jekyll&lt;/a&gt;. It is very step-by-step. The goal is to make GitHub and Jekyll more accessible to a wider audience interested in an alternative to WordPress. It even refactors code to teach you how Jekyll templates work. And I should note, it was created to accompany a workshop I gave during &lt;a href=&quot;http://ttc.iss.lsa.umich.edu/ttc/enriching-scholarship/&quot;&gt;University of Michigan’s 2014 Enriching Scholarship Conference&lt;/a&gt;.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>The New Academic Librarian</title>
+   <link href="http://jmcglone.com/notes/2014/01/23/the-new-academic-librarian"/>
+   <updated>2014-01-23T00:00:00-05:00</updated>
+   <id>http://jmcglone.com/notes/notes/2014/01/23/the-new-academic-librarian</id>
+   <content type="html">&lt;p&gt;After what seemed to be a never-ending publication process, the book &lt;a href=&quot;http://www.amazon.com/The-New-Academic-Librarian-Responsibilities/dp/0786471530&quot;&gt;&lt;em&gt;The New Academic Librarian: Essays on Changing Roles and Responsibilities&lt;/em&gt;&lt;/a&gt; – edited by Wayne State University librarian &lt;a href=&quot;http://www.rebecapeacock.com/&quot;&gt;Rebeca Peacock&lt;/a&gt; and the library’s associate director for marketing, Jill Wurm – is finally published and available. After skimming through the table of contents, this will no doubt be a valuable and necessary read for library and information science students interested in careers at an academic library; the essays featured in the volume present a very current inside look at the functions and responsibilities of academic librarians, especially in regards to how they interact with, use, play with, and rely on technology in their work.&lt;/p&gt;
+
+&lt;p&gt;I’m selfishly excited about this new book because I was fortunate enough to contribute a chapter about my experiences and reflections as a digital projects librarian. In addition to reflecting on what I’ve learned, I looked at over 80 job descriptions for “digital projects librarians” (or variantions of that title) and found the job descriptions matched my own hunches and experiences; the digital projects librarian is very much an amalgam of the traditional librarian and the fast moving, ever changing world of web development. Here’s the abstract to my chapter, “Looking Under the Hood: A View of the Digital Projects Librarian in the Academic Library”:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Despite the fact that digital libraries have been with the library profession for the last two decades, relatively little has been written about digital projects librarianship from a professional standpoint. Digitization of text and images, the creation of SGML and XML encoded texts, digital preservation, networked information, and large scale database searching have been with the library profession since the early 1990s. Less than an emerging role, it is more accurate to describe digital projects librarianship as an evolving role in the academic library. Over the last 20 years, this role has expanded to encompass a wide range of skills and responsibilities from web design and development to copyright and project management. Successful digital projects librarians are interested and unafraid to look underneath the hood of the web to see what powers it and makes things happen. As such, digital projects librarians should be experienced and versed in the traditional skill sets of their predecessors, while at the same time excited to adapt and learn new technologies by drawing from a very deep and wide pool of skills in the professional web design and web development communities. In addition, as academic libraries and institutions continue to embrace digital technologies to provide relevant services for faculty, students, and staff, the roles and projects of a digital projects librarian continue to expand well beyond digitization to involve library instruction, digital publishing, software and application development, user interface design, digital preservation, and data curation. To help you form a complete picture, this chapter will discuss a range of digital projects job descriptions, digital projects at academic libraries, the components underpinning many library digital collections, and also provide resources to help the reader build their digital project skill set and to illustrate emerging trends for this exciting and evolving form of librarianship.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Congratulations to Rebeca and Jill and all the contributing authors to this much needed understanding of academic librarianship in the 21st century!&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Swatches. A Place to Think About Color on the Web</title>
+   <link href="http://jmcglone.com/notes/2013/12/12/swatches-a-place-to-think-about-color-on-the-web"/>
+   <updated>2013-12-12T00:00:00-05:00</updated>
+   <id>http://jmcglone.com/notes/notes/2013/12/12/swatches-a-place-to-think-about-color-on-the-web</id>
+   <content type="html">&lt;p&gt;Designers find inspiration and motivation from other designers. Everyday on the web we see things that are beautifully made by our peers – work that spark ideas for new projects or teaches us a new technique or technology. Recently, I’ve been trying to pay better attention to designers’ use of color on the web. I’m also working to combat my forgetfulness and feed my obsessive need to cata(log) aspects of my life in a really straightforward manner. While I’m already familiar with great services like Adobe Kuler’s &lt;a href=&quot;https://kuler.adobe.com/&quot;&gt;Wheel&lt;/a&gt; and &lt;a href=&quot;https://kuler.adobe.com/explore/&quot;&gt;Explore&lt;/a&gt; tools and &lt;a href=&quot;http://colorschemedesigner.com/&quot;&gt;Color Scheme Designer&lt;/a&gt;, I’m interested in something much simpler, cleaner, and straightforward – HTML on a page with hex color values and ordered in reverse chronological order.&lt;/p&gt;
+
+&lt;p&gt;Enter &lt;a href=&quot;http://jmcglone.com/swatches&quot;&gt;&lt;em&gt;Swatches&lt;/em&gt;&lt;/a&gt;, a simple way to track sets of hex color values and also give attribution to those designers or sources that help me better understand color and how colors work together in design. Interested in how this works? &lt;a href=&quot;http://jsfiddle.net/jmcglone/hKXtF/&quot;&gt;See it at jsfiddle&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;In getting here, I’ve been heavily influenced by &lt;a href=&quot;http://dribbble.com&quot;&gt;dribbble’s&lt;/a&gt; design approach to color sets, as well as the attention it gives to color in the designs its users post and share in that space. But I’d like to be able to track sets of colors I find that work really well, as well as the hex color values that make up those sets.&lt;/p&gt;
+
+&lt;p&gt;In the future, I’d like to develop a way to make this much more dynamic or work better with Jekyll but also a tool or service that others can utilize. In the meantime, I hope this is useful to people and inspires others to think more about color and using color on the web.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Building Your Online Academic Identity</title>
+   <link href="http://jmcglone.com/notes/2013/10/08/building-your-online-academic-identity"/>
+   <updated>2013-10-08T00:00:00-04:00</updated>
+   <id>http://jmcglone.com/notes/notes/2013/10/08/building-your-online-academic-identity</id>
+   <content type="html">&lt;p&gt;Today I gave a workshop as a part of &lt;a href=&quot;http://www.lsa.umich.edu/humanities/&quot;&gt;University of Michigan’s Institute for the Humanities&lt;/a&gt; Publishing Practice Series aimed at faculty and graduate students looking to build-up their online identity. There’s already been great work done by the writers at &lt;a href=&quot;http://chronicle.com/blogs/profhacker/creating-and-maintaining-a-professional-presence-online-a-roundup-and-reflection/43030&quot;&gt;ProfHacker&lt;/a&gt; on this topic, insightful tips over at &lt;a href=&quot;http://www.educause.edu/ero/article/intentional-web-presence-10-seo-strategies-every-academic-needs-know&quot;&gt;EDUCAUSE&lt;/a&gt;, and an article published in &lt;a href=&quot;http://firstmonday.org/ojs/index.php/fm/article/view/3969/3292&quot;&gt;&lt;em&gt;First Monday&lt;/em&gt;&lt;/a&gt; studying and classifying the types of online academic personas folks are starting to create for themselves. This workshop tried to bring all of that together and emphasize that building your online persona is really just SEO for your name.&lt;/p&gt;
+
+&lt;p&gt;Since the previous folks were kind enough to share their thoughts with the world, I’ve kept that spirit and made my notes available – you can check them out at &lt;a href=&quot;http://goo.gl/Hn3Cc9&quot;&gt;http://goo.gl/Hn3Cc9&lt;/a&gt;.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Library Publishing Toolkit Now Available</title>
+   <link href="http://jmcglone.com/notes/2013/08/05/library-publishing-toolkit-now-available"/>
+   <updated>2013-08-05T00:00:00-04:00</updated>
+   <id>http://jmcglone.com/notes/notes/2013/08/05/library-publishing-toolkit-now-available</id>
+   <content type="html">&lt;p&gt;Libraries have been creating and hosting unique cultural content on the web for more than a decade now, and the much anticipated &lt;em&gt;Library Publishing Toolkit&lt;/em&gt;, which aims to provide case studies, resources, and discussions on digital publishing in the library setting, is finally available! Along with many great contributors across academic and public libraries, museums, and archives, I’ve authored a chapter on Michigan Publishing’s XML workflows that aims to help new and existing publishers take advantage of the preservation and re-use qualities of the XML format. And thanks to the publisher’s commitment to open access, they’ve allowed authors to retain copyright to their chapters, and I’ve made mine freely available over at the University of Michigan’s &lt;a href=&quot;http://hdl.handle.net/2027.42/99563&quot;&gt;Deep Blue&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;A free PDF version of the entire volume is available to download at the &lt;a href=&quot;http://opensuny.org/omp/index.php/IDSProject/catalog/book/25&quot;&gt;Library Toolkit’s website&lt;/a&gt; and a print-on-demand version can be &lt;a href=&quot;http://www.amazon.com/dp/0989722600&quot;&gt;ordered directly from Amazon&lt;/a&gt;. From the Toolkit’s website:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The Library Publishing Toolkit looks at the broad and varied landscape of library publishing through discussions, case studies, and shared resources. From supporting writers and authors in the public library setting to hosting open access journals and books, this collection examines opportunities for libraries to leverage their position and resources to create and provide access to content.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+</content>
+ </entry>
+ 
+ 
+</feed>
