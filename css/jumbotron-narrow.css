@@ -58,6 +58,7 @@ body {
 .marketing p + h4 {
   margin-top: 28px;
 }
+p {color: #777;}
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
