@@ -1,21 +1,165 @@
 ---
 layout: default
 title: The sheep project
-description: A game designed for a giant tablet.
+description: A game designed for a giant tactile table.
 ---
 <div class="sheep">
+	
 	<img
-				width=auto height=auto margin=auto
-				class="img-responsive center-block" alt="Sheep"
-				src="./resources/title.jpg"/>
-				<img
-							width=auto height=auto margin=auto
-							class="img-responsive center-block" alt="Sheep"
-							src="./resources/canon.jpg"/>
+		width=600px height=auto
+		class="title img-responsive center-block" alt="Sheep"
+		src="./resources/title.jpg"/>
+	<br/>
 
+	<video width="100%" height="100%" controls>
+		<source src="./resources/video.mp4" type="video/mp4">
+		Your browser does not support the video tag.
+	</video>
+
+	<p style="text-align: center;">A game developed in collaboration with Quentin Loizeau.</p>
+	<br/>
+
+	<div class="story">
 		<img
-					width=150px height=auto margin=auto
-					class="img-responsive center-block" alt="Sheep"
-					src="./resources/fatSheep.png"/>
+			width=400px height=auto
+			class="title img-responsive center-block" alt="Story"
+			src="./resources/story.png"/>
+		<br/>
+
+		<p>The sun in shinning and the sky is blue. The lush-growing green pastures amid alpine flowers burst with life. Ordianry peaceful, the countriside is buzzing with excitement. No wonder, today is the first mowing day for the four famers of the valley!</p>
+		<p>But wait a minute, what are the sheep doing outside? They are supposed to be in their barns!</p>
+		<p>Without their sheep, how are the farmers going to prepare for the harsh winter? Are you ready to help them?</p>
+	</div>
+
+	<br/>
+
+	<div class="gameplay">
+		<img
+			width=400px height=auto
+			class="title img-responsive center-block" alt="Gameplay"
+			src="./resources/gameplay.png"/>
+		<br/>
+		
+		<p style="text-align: center;">In this game, the key to success is to gather 100 sheep in one barn. Discover how...</p>
+		<br/>
+
+		<h4>Move the sheep</h4>
+		<p>The herds are just wandering in the pastures, looking for the lushiest grass. To bring them back to your barn, the player can push them in the right direction by touching the table. A counter indicates how many sheep are in the barn.</p>
+
+		<br/>
+		<h4>Special actions</h4>
+		<p>To access the special action menu, each player can touch the chubby sheep standing in front of their barn. The player can then trigger the action by touching the corresponding icon and choosing the barn to target. Each action will down it's score by a few sheep, but it's worth it !</p>
+		<br/>
+
+		<div class="row">
+			<div class="col-sm-2">
+				<img
+					width=400px height=auto
+					class="img-responsive center-block" alt="Wolf"
+					src="./resources/wolf.jpg"/>
+			</div>
+			<div class="col-sm-10">
+				<p>Send a pack of wolves near the barn of one of his adversary, eating the sheep on their way.</p>
+				<p><i>Cost 10 sheep.</i></p>
+			</div>
+		</div>
+
+		<hr/>
+
+		<div class="row">
+			<div class="col-sm-2">
+				<img
+					width=400px height=auto
+					class="img-responsive center-block" alt="Lucky sheep"
+					src="./resources/luckySheep.png"/>
+			</div>
+			<div class="col-sm-10">
+				<p>Invoke Mother Nature to make the pasture close to a barn more luxurious than anywhere else in the valley and consequently attract more sheep. Feeling generous? It's possible to generate it next to the barn of one of the other player.</p>
+				<p><i>Cost 15 sheep.</i></p>
+			</div>
+		</div>
+
+		<hr/>
+
+		<div class="row">
+			<div class="col-sm-2">
+				<img
+					width=400px height=auto
+					class="img-responsive center-block" alt="Lucky sheep"
+					src="./resources/canon.jpg"/>
+			</div>
+			<div class="col-sm-10">
+				<p>Send an explosive sheep to another barn. This action will down the score of the targeted barn by 20 sheep.</p>
+				<p><i>Cost 10 sheep.</i></p>
+			</div>
+		</div>
+
+		<hr/>
+
+		<div class="row">
+			<div class="col-sm-2">
+				<img
+					width=400px height=auto
+					class="img-responsive center-block" alt="Lucky sheep"
+					src="./resources/poison.png"/>
+			</div>
+			<div class="col-sm-10">
+				<p>Play viciously by poisoning the surrounding land of a barn.The sheep will avoid the area.</p>
+				<p><i>Cost 12 sheep.</i></p>
+			</div>
+		</div>
+
+
+	</div>
+
+	<br/>
+	<br/>
+
+	<div class="context">
+		<img
+			width=400px height=auto
+			class="title img-responsive center-block" alt="Context"
+			src="./resources/context.png"/>
+		<br/>
+		
+		<p>This game was created for the tactile table of the <a href="http://www.institutimage.fr/" target="_blank" title="Institut Image">Institut Image</a>. Located in the entrance of the building, it's a fun way to welcome visitors and give them a first glimpse of the technology developed onsite.</p>
+
+		<figure>
+			<img
+				width=450px height=auto
+				class="title img-responsive center-block" alt="Picture of the tactile table of the Institut Image."
+				src="./resources/tableTactile.jpg"/>
+			<figcaption>Visitors trying the tactile table.</figcaption>
+		</figure>
+		<br/>
+
+		<p>The game was developed with Unity in c# and is optimized for a HD 1920*1080 display.</p>
+		<p>The project was sequenced in 3 canvas: one for the background and sheep, one for the special actions and one for the menu. One of the objective of the project was to handle multi-touching (it can be up to 40 touches at the same time if the 4 players use all their fingers simultaneously).</p>
+		<p>Sheep gameobjects have colliders and rigidbody to detect the interaction with other gameobjects.</p>
+		<p>Each touch instantiate a collider and a rigidbody that will act as a shockwave if in contact with a sheep. The icons for the menu and the special actions have Trigger type colliders.</p>
+		<p>To each barn, a trigger collider that are only trigger by the sheep when they enter. The score is updated accordingly.</p>
+
+	</div>
+
+	<br/>
+
+	<div class="row">
+		<div class="col-sm-2 col-sm-offset-4">
+			<img
+				width=100px height=auto
+				class="title img-responsive center-block" alt="logo ENSAM"
+				src="../../img/logoInstitutImage.jpg"/>		
+		</div>
+
+		<div class="col-sm-2">
+			<img
+				width=150px height=auto
+				class="title img-responsive center-block" alt="logo ENSAM"
+				src="../../img/logoENSAM.svg.png"/>
+		</div>
+
+
+	</div>
+	<br/>
 	
 </div>
