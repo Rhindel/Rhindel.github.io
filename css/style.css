@@ -56,11 +56,6 @@ ul.swatch li:first-child { webkit-border-top-left-radius: 9px; -webkit-border-bo
 .swatch-log p { font-size: 14px; clear: left; margin-top: 10px; font-family: 'Montserrat', Helvetica, sans-serif; text-transform: uppercase; }
 .clear { clear: both; height: 20px; }
 
-/* CV */
-.cv {line-height: 23px; width: 90%; margin: 0 auto;}
-.cv li { line-height: 23px; }
-.cv h2 { font-size: 26.5px; }
-.cv h1 { font-size: 32.5px; }
 
 .projects .notes, .contact, .about, .cv, .error, .swatches { margin-bottom: 30px; }
 
@@ -102,5 +97,9 @@ pre.prettyprint { padding: 10px !important; margin: 40px; font-size: 12px;}
 .projects h3 {color: #888; font-size: 1.7em;}
 .divider-container {clear: both; padding-top: 8px;}
 .sheep {display: block;}
-.sheep img.title {margin-right: auto; margin-left: auto;} 
+img.title {margin-right: auto; margin-left: auto;}
+img.icon {margin-right: auto; margin-left: auto; margin-top: auto; margin-bottom: auto; display: block;}
 .sheep h4 {color: #8B4513;}
+.training h1 {color: #777;}
+.training h2 {color: #777; text-align: center; font-size:1.8em;}
+.training h3 {color: #663399; font-size:1.1em;}
