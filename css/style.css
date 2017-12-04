@@ -100,6 +100,7 @@ pre.prettyprint { padding: 10px !important; margin: 40px; font-size: 12px;}
 img.title {margin-right: auto; margin-left: auto;}
 img.icon {margin-right: auto; margin-left: auto; margin-top: auto; margin-bottom: auto; display: block;}
 .sheep h4 {color: #8B4513;}
-.training h1 {color: #777;}
-.training h2 {color: #777; text-align: center; font-size:1.8em;}
 .training h3 {color: #663399; font-size:1.1em;}
+.musicircus h1 {color: #777; text-align: center;}
+.musicircus h2 {color: #777; text-align: center; font-size:1.8em;}
+.musicircus h3 {color: #777; font-size: 1.1em;}
