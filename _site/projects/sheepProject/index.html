@@ -66,6 +66,34 @@
 	<p style="text-align: center;">A game developed in collaboration with Quentin Loizeau.</p>
 	<br/>
 
+	<div class="context">
+		<img
+			width=400px height=auto
+			class="title img-responsive center-block" alt="Context"
+			src="./resources/context.png"/>
+		<br/>
+		
+		<p>This game was created for the tactile table of the <a href="http://www.institutimage.fr/" target="_blank" title="Institut Image">Institut Image</a>. Located in the entrance of the building, it's a fun way to welcome visitors and give them a first glimpse of the technology developed onsite.</p>
+
+		<figure>
+			<img
+				width=450px height=auto
+				class="title img-responsive center-block" alt="Picture of the tactile table of the Institut Image."
+				src="./resources/tableTactile.jpg"/>
+			<figcaption>Visitors trying the tactile table.</figcaption>
+		</figure>
+		<br/>
+
+		<p>The game was developed with Unity in c# and is optimized for a HD 1920*1080 display.</p>
+		<p>The project was sequenced in 3 canvas: one for the background and sheep, one for the special actions and one for the menu. One of the objective of the project was to handle multi-touching (it can be up to 40 touches at the same time if the 4 players use all their fingers simultaneously).</p>
+		<p>Sheep gameobjects have colliders and rigidbody to detect the interaction with other gameobjects.</p>
+		<p>Each touch instantiate a collider and a rigidbody that will act as a shockwave if in contact with a sheep. The icons for the menu and the special actions have Trigger type colliders.</p>
+		<p>To each barn, a trigger collider that are only trigger by the sheep when they enter. The score is updated accordingly.</p>
+
+	</div>
+
+	<br/>
+
 	<div class="story">
 		<img
 			width=400px height=auto
@@ -73,8 +101,8 @@
 			src="./resources/story.png"/>
 		<br/>
 
-		<p>The sun in shinning and the sky is blue. The lush-growing green pastures amid alpine flowers burst with life. Ordianry peaceful, the countriside is buzzing with excitement. No wonder, today is the first mowing day for the four famers of the valley!</p>
-		<p>But wait a minute, what are the sheep doing outside? They are supposed to be in their barns!</p>
+		<p>The sun is shinning and the sky is blue. Amid the verdant green pastures alpine flowers burst with life. Ordinary peaceful, the countryside is buzzing with excitement. No wonder, today is the first mowing day for the four famers of the valley!</p>
+		<p>But wait a minute, what are the herds of the sheep doing outside? They are supposed to be in their barns!</p>		
 		<p>Without their sheep, how are the farmers going to prepare for the harsh winter? Are you ready to help them?</p>
 	</div>
 
@@ -95,7 +123,11 @@
 
 		<br/>
 		<h4>Special actions</h4>
-		<p>To access the special action menu, each player can touch the chubby sheep standing in front of their barn. The player can then trigger the action by touching the corresponding icon and choosing the barn to target. Each action will down it's score by a few sheep, but it's worth it !</p>
+
+		<p>To access the special action menu, each player can touch the chubby sheep standing in front of their barn. The player can then trigger an action by touching the corresponding icon and choosing the barn to target. Each action will down the score of the player's barn by a few sheep, but it's worth it!</p>
+
+
+
 		<br/>
 
 		<div class="row">
@@ -151,7 +183,7 @@
 					src="./resources/poison.png"/>
 			</div>
 			<div class="col-sm-10">
-				<p>Play viciously by poisoning the surrounding land of a barn.The sheep will avoid the area.</p>
+				<p>Play viciously by poisoning the surrounding land of a barn. The herd will avoid the area.</p>
 				<p><i>Cost 12 sheep.</i></p>
 			</div>
 		</div>
@@ -160,34 +192,6 @@
 	</div>
 
 	<br/>
-	<br/>
-
-	<div class="context">
-		<img
-			width=400px height=auto
-			class="title img-responsive center-block" alt="Context"
-			src="./resources/context.png"/>
-		<br/>
-		
-		<p>This game was created for the tactile table of the <a href="http://www.institutimage.fr/" target="_blank" title="Institut Image">Institut Image</a>. Located in the entrance of the building, it's a fun way to welcome visitors and give them a first glimpse of the technology developed onsite.</p>
-
-		<figure>
-			<img
-				width=450px height=auto
-				class="title img-responsive center-block" alt="Picture of the tactile table of the Institut Image."
-				src="./resources/tableTactile.jpg"/>
-			<figcaption>Visitors trying the tactile table.</figcaption>
-		</figure>
-		<br/>
-
-		<p>The game was developed with Unity in c# and is optimized for a HD 1920*1080 display.</p>
-		<p>The project was sequenced in 3 canvas: one for the background and sheep, one for the special actions and one for the menu. One of the objective of the project was to handle multi-touching (it can be up to 40 touches at the same time if the 4 players use all their fingers simultaneously).</p>
-		<p>Sheep gameobjects have colliders and rigidbody to detect the interaction with other gameobjects.</p>
-		<p>Each touch instantiate a collider and a rigidbody that will act as a shockwave if in contact with a sheep. The icons for the menu and the special actions have Trigger type colliders.</p>
-		<p>To each barn, a trigger collider that are only trigger by the sheep when they enter. The score is updated accordingly.</p>
-
-	</div>
-
 	<br/>
 
 	<div class="row">
@@ -210,6 +214,7 @@
 	<br/>
 	
 </div>
+
 			
 			<div class="footer">
 	<div class="row">
