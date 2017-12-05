@@ -10,7 +10,7 @@
 	<!-- favicon
 	<link rel="shortcut icon" href="/img/ico/favicon.png">
 	-->
-	<title>Laparoscopique surgery | Adélaïde Grimaud</title>		
+	<title>Laparoscopic surgery | Adélaïde Grimaud</title>		
 	<!-- styles -->
 	<link href="/css/bootstrap.css" rel="stylesheet">
 	<link href="/css/jumbotron-narrow.css" rel="stylesheet">
@@ -51,7 +51,95 @@
 </div> <!-- /header -->
 
 			
-			<div class="surgery">
+			<div class="vrsurgery">
+	<img
+		width=600px height=auto 
+		class="title img-responsive center-block" alt="Laparoscopic surgery"
+		src="./resources/title.png"/>
+	<p>This project initiated a collaboration between the Surgical Planning Laboratory and the Center for Neurological Imaging, two research laboratories of the <a href="http://www.brighamandwomens.org/" target="_blank" title="BWH">Brigham and Women's Hospital</a>, Harvard Medical School.
+	<p><small><b>Disclaimer:</b> video of the application can't be published due to confidential patient information content.</small></p>
+	<br/>
+	
+	<img
+		width=300px height=auto 
+		class="title img-responsive center-block" alt="Picture of the control panel."
+		src="./resources/context.png"/>
+
+	<p>A laparoscopic surgery is a minimally invasive surgical procedure. Instead of cutting a large incision to look directly at the operated organs, the surgeon proceeds through smaller incisions and uses a camera and special tools to conduct the operation.</p>
+	<p>The goal of this project is to build an application using virtual reality to help surgeons perform laparoscopic surgeries while improving the SPINE dataset of annotated images.</p>
+	<p>This project aims to be used in the operating room.</p>
+	<br/>
+
+	<figure>
+		<img
+			width=100% height=auto 
+			class="title img-responsive center-block" alt="Picture of the control panel."
+			src="./resources/schemaVR.png"/>
+		<figcaption>Flowchart of the application</figcaption>		
+	</figure>
+	<br/>
+
+	<img
+		width=350px height=auto 
+		class="title img-responsive center-block" alt="Picture of the control panel."
+		src="./resources/application.png"/>
+	<h3>Set-up</h3>
+	<p>The application was designed with Unity3D for the <i>HTC Vive</i> and two <i>Vive controllers</i>.</p>
+	<p>An assistant wears the headset while the surgery is performed and annotate key frames extracted from the surgical video.</p>
+
+	<h3>Virtual environment</h3>
+	<p>The virtual environment is organized so the user can easily reach and see every useful information at the same time. It is divided in 3 parts:</p>
+	<ul>
+		<li><b>The desktop</b>: situated right in front of the user, it encompasses the screen where the video is rendered and a workspace to annotate the selected images</li>
+		<li><b>The automatic wall</b>: on the left side of the user, it contains a sequence of up to 30 images, which is refreshed every second on a “last-in, first-out” basis with a new frame extracted from the video.</li>
+		<li><b>The collection wall</b>: on the right side of the user, this wall contains the annotated images that are going to be uploaded to SPINE.</li>
+	</ul>
+	<br/>
+
+	<figure>
+		<img
+			width=100% height=auto 
+			class="title img-responsive center-block" alt="Picture of the control panel."
+			src="./resources/environmentVR.png"/>
+		<figcaption>Organization of the virtual environment</figcaption>		
+	</figure>
+
+	<br/>
+
+	<div class="row">
+		<div class="col-sm-3">
+			<img
+				width=150px height=auto
+				class="title img-responsive center-block" alt="logo CNI"
+				src="./resources/logoCNI.png"/>		
+		</div>
+		<div class="col-sm-3">
+			<br/>
+			<img
+				width=300px height=auto
+				class="title img-responsive center-block" alt="logo BWH"
+				src="./resources/logoBWH.jpg"/>
+		</div>
+
+		<div class="col-sm-3 col-sm-offset-1">
+			<br/>
+			<img
+				width=150px height=auto
+				class="title img-responsive center-block" alt="logo HMS"
+				src="./resources/logoHarvard"/>
+		</div>
+
+		<div class="col-sm-2">
+			<img
+				width=70px height=auto
+				class="title img-responsive center-block" alt="logo SPL"
+				src="./resources/logoSPL.png"/>
+		</div>
+	</div>
+	<br/>
+	<a href="/projects" title="Back to projects"><< Back to projects</a>
+	<br/>
+	<br/>
 
 </div>
 			
