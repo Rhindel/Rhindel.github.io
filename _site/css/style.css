@@ -94,7 +94,7 @@ pre.prettyprint { padding: 10px !important; margin: 40px; font-size: 12px;}
 
 /*Projects*/
 .projects {display: block; margin: auto; }
-.projects h3 {color: #888; font-size: 1.7em;}
+.projects h2 {color: #999; font-size: 1.7em; text-decoration: none;}
 .divider-container {clear: both; padding-top: 8px;}
 .sheep {display: block;}
 img.title {margin-right: auto; margin-left: auto;}
@@ -104,5 +104,5 @@ img.icon {margin-right: auto; margin-left: auto; margin-top: auto; margin-bottom
 .vrsurgery h3 {color: #E60000; font-size:1.1em;}
 .vrsurgery h1 {color: #777; text-align: center;}
 .vrsurgery h2 {color: #777; text-align: center; font-size:1.8em;}
-.vrsurgery ul {color: #777;}
+ul {color: #777;}
 .engine h3 {color: #E60000; font-size: 1.1em;}
