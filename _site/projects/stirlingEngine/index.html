@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" width="device-width, initial-scale=1.0">
+	<meta name="description" content="Analytical and numerical study of the dynamic balancing of a Stirling engine.">
+	<meta name="author" content="Adélaïde Grimaud">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<!-- favicon
+	<link rel="shortcut icon" href="/img/ico/favicon.png">
+	-->
+	<title>Dynamic balancing of an engine | Adélaïde Grimaud</title>		
+	<!-- styles -->
+	<link href="/css/bootstrap.css" rel="stylesheet">
+	<link href="/css/jumbotron-narrow.css" rel="stylesheet">
+	<link href="/css/style.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+  <script src="../../assets/js/html5shiv.js"></script>
+  <script src="../../assets/js/respond.min.js"></script>
+	<![endif]-->
+	<!-- google analytics - i will not share this data with google -->
+			<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109502914-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-109502914-1');
+		</script>
+	
+</head>
+
+	
+	<body>
+		<div class="container">
+			
+			<div class="header">
+	<ul class="nav nav-pills pull-right">
+
+		<li><a href="/" title="Home">Home</a></li>
+		<li class=""><a href="/projects" title="Projects">Projects</a></li>
+		<li><a href="/files/CV_A_Grimaud.pdf" target="_blank" title="Download CV as PDF">Download CV</a></li>
+		<!-- <li class=""><a href="/notes" title="Notes">Notes</a></li> -->
+	</ul>
+	<h3 class="text-muted"><a href="/">Adélaïde Grimaud</a></h3>
+</div> <!-- /header -->
+
+			
+			<div class="engine">
+	<img
+		width=100% height=auto 
+		class="title img-responsive center-block" alt="Dynamic balancing of an engine"
+		src="./resources/title.png"/>
+	<br/>
+
+	<img
+		width=100% height=auto 
+		class="title img-responsive center-block" alt="Model of the engine"
+		src="./resources/engine.png"/>
+	
+	<p style="text-align: center;">This study was conducted with Lucas Maigrat at <a href="https://artsetmetiers.fr/" target="_blank" title="ENSAM">Ecole Nationale Supérieure d'Arts et Métiers</a>, Metz, France.</p>
+	<br/>
+
+	<img
+		width=250px height=auto 
+		class="title img-responsive center-block" alt="Context"
+		src="./resources/context.png"/>
+
+	<p>The following project details the study of the dynamic balancing of a Stirling engine via analytical and numerical analysis.</p>
+	<p>The study is based on the following blueprint.</p>
+
+	<figure>
+		<img
+			width=100% height=auto 
+			class="title img-responsive center-block" alt="Engine blueprint"
+			src="./resources/blueprint.jpg"/>
+		<figcaption>Blueprint of the engine</figcaption>		
+	</figure>
+
+	<br/>
+
+	<p>The modelling and simulation were realized with Catia V5 and its LMS module.</p>
+	<img
+		width=250px height=auto 
+		class="title img-responsive center-block" alt="Studies"
+		src="./resources/studies.png"/>
+
+	<h3>Analytical study</h3>
+	<figure>
+		<img
+			width=80% height=auto 
+			class="title img-responsive center-block" alt="Parametric shema."
+			src="./resources/schema.png"/>
+		<figcaption>Parametric schema</figcaption>		
+	</figure>
+	<div class="row">
+		<div class="col-sm-6">
+			<figure>
+				<img
+					width=100% height=auto 
+					class="title img-responsive center-block" alt="Qualitative shema."
+					src="./resources/qualitative.png"/>
+				<figcaption>Qualitative schema</figcaption>		
+			</figure>
+		</div>
+		<div class="col-sm-6">
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<p>The analytical analysis allows us to quickly show that the engine is not balanced. By setting out the equations of the balance of mechanical actions, we were able to calculate the force on the crankcase.</p>
+		</div>
+	</div>
+	<br/>
+	<h3>Numerical study</h3>
+	<p>Each part of the engine was modelled at scale and organized by equivalence class (by type of movement): both rods (planar movement), crankcase (fix), both pistons (translational motion), crank pin (circular motion).</p>
+
+	<div class="row">
+		<div class="col-sm-6">
+			<br/>
+			<br/>
+			<br/>
+			<figure>
+				<img
+					width=100% height=auto 
+					class="title img-responsive center-block" alt="Piston shema."
+					src="./resources/piston2.png"/>
+				<figcaption>Piston</figcaption>
+			</figure>
+		</div>
+		<div class="col-sm-6">
+			<figure>
+				<img
+					width=100% height=auto 
+					class="title img-responsive center-block" alt="Crankcase shema."
+					src="./resources/carter.png"/>
+				<figcaption>Crankcase</figcaption>
+			</figure>
+		</div>
+	</div>
+
+	<p>Aluminium and steel materials were applied to the parts to calculate their masses.</p>
+	<br/>
+	<h3>Results</h3>
+	<p>These results were obtained for a speed of 60rpm.</p>
+
+	<div class="row">
+		<div class="col-sm-6">
+			<figure>
+				<img
+					width=100% height=auto 
+					class="title img-responsive center-block" alt="Results of the numarical analysis."
+					src="./resources/analytical.png"/>
+			</figure>
+		</div>
+		<div class="col-sm-6">
+			<figure>
+				<img
+					width=100% height=auto 
+					class="title img-responsive center-block" alt="Results of the numarical analysis."
+					src="./resources/numerical.png"/>
+			</figure>
+		</div>
+	</div>
+	<figcaption>Forces induced on the carter (right: analytical method, left: numerical method)</figcaption>
+
+	<p>Results are similar with a 5% margin due to approximations in the mass position in the analytical analysis.</p>		
+
+	<br/>
+	<br/>
+
+	<div class="row">
+		<div class="col-sm-2 col-sm-offset-5">
+			<img
+				width=150px height=auto
+				class="title img-responsive center-block" alt="logo ENSAM"
+				src="../../img/logoENSAM.svg.png"/>
+		</div>
+	</div>
+	
+	<br/>
+	<a href="/projects" title="Back to projects"><< Back to projects</a>
+	<br/>
+	<br/>
+
+</div>
+			
+			<div class="footer">
+	<div class="row">
+	<div class="col-sm-6">
+	<p><small>&copy; adelaidegrimaud 2017</small></p>
+	</div>
+	<div class="col-sm-1">
+		<p><a href="https://github.com/Rhindel" title="Github">
+			<i class='fa fa-github' aria-hidden="true"></i>
+		</a></p>
+	</div>
+	<div class="col-sm-1">
+		<p><a href="https://www.linkedin.com/in/ad%C3%A9la%C3%AFde-grimaud-275835131/" title="LinkedIn">
+			<i class='fa fa-linkedin' aria-hidden="true"></i>
+		</a></p>
+	</div>
+	<div class="col-sm-4">
+	<p class="pull-right"><small><a href="/about" title="About this site">About this site</a></small></p>
+	</div>
+	</div>
+</div> <!-- /footer -->
+
+		
+		</div> <!-- /container -->
+	
+	
+		<!-- javascript at the end of the doc so page loads faster -->
+<script src="http://code.jquery.com/jquery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/library.js"></script>
+<script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
+	
+	</body>
+
+</html>
