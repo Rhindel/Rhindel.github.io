@@ -1,9 +1,12 @@
 @import url(http://fonts.googleapis.com/css?family=Merriweather:300,300italic,400,400italic,700,700italic);
 @import url(http://fonts.googleapis.com/css?family=Montserrat);
 
-body { padding-top: 20px; padding-bottom: 40px; font-family: 'Merriweather', Georgia, Times; font-size: 16px; }
+body { padding-top: 20px; padding-bottom: 40px; font-family: 'Merriweather', Georgia, Times; font-size: 16px; width: 100%; height:100%; }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { font-family: 'Merriweather', Georgia, Times; font-weight: 700;}
+
+h2 { color: #999; font-size: 1.7em; }
+h3 { color: #888; font-size: 1.1em; }
 
 blockquote p { font-size: 16px; line-height: 1.6em; }
 
@@ -12,10 +15,13 @@ figcaption {text-align: justify; text-align: center; color:#666; font-size: 14px
 
 
 /* Masthead */
-.header, .footer, .header h3 { font-family: 'Montserrat', Helvetica, sans-serif; text-transform: uppercase; font-weight: normal; }
+.header, .footer, .header h3 { font-family: 'Montserrat', Helvetica, sans-serif; text-transform: uppercase; font-weight: normal; text-align: center;}
+.center-pills { display: flex; justify-content: center; }
+.sticky { z-index:1; position: fixed; width: 100%; top: 0; background: #ffffff; max-width: 970px; }
+.sticky + .container { padding-top: 300px; }
 
 /* Navigation */
-h3.text-muted a {text-decoration: none; color: #999999; }
+h3.text-muted a {text-decoration: none; color: #999999;}
 h3.text-muted a:hover { text-decoration: none; color: #0088cc; }
 
 img.avatar { margin-bottom: 30px; }
@@ -93,16 +99,16 @@ pre.prettyprint { padding: 10px !important; margin: 40px; font-size: 12px;}
 
 
 /*Projects*/
-.projects {display: block; margin: auto; }
-.projects h2 {color: #999; font-size: 1.7em; text-decoration: none;}
-.divider-container {clear: both; padding-top: 8px;}
-.sheep {display: block;}
-img.title {margin-right: auto; margin-left: auto;}
-img.icon {margin-right: auto; margin-left: auto; margin-top: auto; margin-bottom: auto; display: block;}
-.sheep h4 {color: #8B4513;}
-.training h3 {color: #663399; font-size:1.1em;}
-.vrsurgery h3 {color: #E60000; font-size:1.1em;}
-.vrsurgery h1 {color: #777; text-align: center;}
-.vrsurgery h2 {color: #777; text-align: center; font-size:1.8em;}
-ul {color: #777;}
-.engine h3 {color: #E60000; font-size: 1.1em;}
+.projects { display: block; margin: auto; }
+.divider-container { clear: both; padding-top: 8px; }
+.sheep { display: block; }
+img.title { margin-right: auto; margin-left: auto; }
+img.icon { margin-right: auto; margin-left: auto; margin-top: auto; margin-bottom: auto; display: block; }
+.sheep h4 { color: #8B4513;} 
+.training h3 { color: #663399; }
+.vrsurgery h3 { color: #E60000; }
+ul { color: #777; }
+.engine h3 { color: #E60000; }
+
+/*Influences*/
+.projects h4, h2, .influences h3 { font-family: 'Montserrat', Helvetica, sans-serif; text-transform: uppercase; text-decoration: none; text-transform: uppercase; font-weight: normal; }
