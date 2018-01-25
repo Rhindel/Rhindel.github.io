@@ -7,9 +7,7 @@
 	<meta name="description" content="A virtual reality application developed for Saint Gobain to train their employees to respect safety measures in the factory.">
 	<meta name="author" content="Adélaïde Grimaud">
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
-	<!-- favicon
-	<link rel="shortcut icon" href="/img/ico/favicon.png">
-	-->
+	
 	<title>Safety training application | Adélaïde Grimaud</title>		
 	<!-- styles -->
 	<link href="/css/bootstrap.css" rel="stylesheet">
@@ -41,11 +39,11 @@
 			
 			<div class="header" id="header">
 	<h3 class="text-muted"><a href="/">Adélaïde Grimaud</a></h3>
-	<ul class="nav nav-pills center-pills">
+	<ul class="nav select-pills center-pills">
 		<li><a href="/" title="Home">Home</a></li>
-		<li class=""><a href="/projects" title="Projects">Projects</a></li>
+		<li class="active"><a href="/#projects" title="Projects">Projects</a></li>
 		<li class=""><a href="/influences" title="Influences">Influences</a></li>
-		<!--<li class=""><a href="/influences" title="Travels">Travels</a></li>-->
+		<!--<li class=""><a href="/travels" title="Travels">Travels</a></li>-->
 		<li><a href="/files/CV_A_Grimaud.pdf" target="_blank" title="Download CV as PDF">Download CV</a></li>
 	</ul>
 </div> <!-- /header -->
@@ -106,7 +104,7 @@
 		class="title img-responsive center-block" alt="Development"
 		src="./resources/development.png"/>
 
-	<h3>Definition of the project</h3>
+	<h4>Definition of the project</h4>
 	<p><a href="https://www.saint-gobain.com/en/france" target="_blank" title="Saint Gobain">Saint-Gobain</a> is a glass manufacturing company. Workers share the factory space with sharp glass panels and material handling machines. Each worker already undergoes a classic safety training but the company is constantly looking to improve it. A virtual reality application allows instructors to mentally expose future workers to dangerous situation while keeping them physically safe.</p>
 	<br/>
 	
@@ -129,9 +127,10 @@
 	<br/>
 
 
-	<h3>Creation of the application</h3>
+	<h4>Creation of the application</h4>
 
-	<p>The application was developed for the <i>HTC Vive</i> with <i>Unity3D</i> (3D environment, interactions and controls), <i>3DSMax</i> (modeling of objects), <i>Substance painter</i> (texture of the 3D objects).</p>
+	<p>The application was developed for the <i>HTC Vive</i> with <i>Unity3D</i> (3D environment, interactions and controls), <i>3DSMax</i> (modeling of objects), <i>Substance painter</i> (texture of the 3D objects). 3D models of the equipment specific to the factory (forklift, two types of racks, glass panels, machine with pods, support and room) were created at scale. Special attention was also given to the textures to improve imersion in the virtual environment.</p>
+	<br/>
 	<p>The worker wears the headset and is asked to move to points of interest in the virtual environment using a <i>Vive controller</i>.</p>
 	<p>The instructor sees where the worker is in the virtual space and can trigger actions (pass through of a forklift in one of the alleys, movement of transport racks loaded with glass panels or not) by the use of a control panel.</p>
 
@@ -139,11 +138,16 @@
 
 	<figure>
 		<img
-			width=100% height=auto 
+			width=700px height=auto 
 			class="title img-responsive center-block" alt="Picture of the control panel."
 			src="./resources/instructorSG.png"/>
 		<figcaption>Control panel for the instructor (in pink: position of the worker)</figcaption>		
 	</figure>
+
+	<br/>
+
+	<p>The buttons are active or unactive to avoid incoherence in the simulation (i.e.: two forklift colliding).</p>
+	<p>The checkboxes are used to instantiate visual cue to help the instructor guide the worker.</p>
 	
 
 	<br/>
@@ -172,7 +176,7 @@
 		</div>
 	</div>
 	<br/>
-	<p><big><a href="/projects" title="Back to projects"><< Back to projects</a></big></p>
+	<p><big><a href="/#projects" title="Back to projects"><< Back to projects</a></big></p>
 	<br/>
 	<br/>
 
@@ -208,7 +212,11 @@
 <script src="/js/bootstrap.min.js"></script>
 <script src="/js/library.js"></script>
 <script src="/js/stickyHeader.js"></script>
-<script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
+<!--<script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>-->
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="https://d3js.org/topojson.v2.min.js"></script>
+<script src="https://d3js.org/d3-drag.v1.min.js"></script>
+<script src="/js/travelMap.js"></script>
 	
 	</body>
 

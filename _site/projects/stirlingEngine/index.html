@@ -7,9 +7,7 @@
 	<meta name="description" content="Analytical and numerical study of the dynamic balancing of a Stirling engine.">
 	<meta name="author" content="Adélaïde Grimaud">
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
-	<!-- favicon
-	<link rel="shortcut icon" href="/img/ico/favicon.png">
-	-->
+	
 	<title>Dynamic balancing of an engine | Adélaïde Grimaud</title>		
 	<!-- styles -->
 	<link href="/css/bootstrap.css" rel="stylesheet">
@@ -41,11 +39,11 @@
 			
 			<div class="header" id="header">
 	<h3 class="text-muted"><a href="/">Adélaïde Grimaud</a></h3>
-	<ul class="nav nav-pills center-pills">
+	<ul class="nav select-pills center-pills">
 		<li><a href="/" title="Home">Home</a></li>
-		<li class=""><a href="/projects" title="Projects">Projects</a></li>
+		<li class="active"><a href="/#projects" title="Projects">Projects</a></li>
 		<li class=""><a href="/influences" title="Influences">Influences</a></li>
-		<!--<li class=""><a href="/influences" title="Travels">Travels</a></li>-->
+		<!--<li class=""><a href="/travels" title="Travels">Travels</a></li>-->
 		<li><a href="/files/CV_A_Grimaud.pdf" target="_blank" title="Download CV as PDF">Download CV</a></li>
 	</ul>
 </div> <!-- /header -->
@@ -92,7 +90,7 @@
 		class="title img-responsive center-block" alt="Studies"
 		src="./resources/studies.png"/>
 
-	<h3>Analytical study</h3>
+	<h4>Analytical study</h4>
 	<figure>
 		<img
 			width=80% height=auto 
@@ -120,7 +118,7 @@
 		</div>
 	</div>
 	<br/>
-	<h3>Numerical study</h3>
+	<h4>Numerical study</h4>
 	<p>Each part of the engine was modelled at scale and organized by equivalence classes according to its type of movement: fix (crankcase), planar (both rods), translational (both pistons), circular (crank pin).</p>
 
 	<div class="row">
@@ -149,7 +147,7 @@
 
 	<p>Aluminium and steel materials were applied to the parts to calculate their masses.</p>
 	<br/>
-	<h3>Results</h3>
+	<h4>Results</h4>
 	<p>These results were obtained for a speed of 60rpm.</p>
 
 	<div class="row">
@@ -187,7 +185,7 @@
 	</div>
 	
 	<br/>
-	<p><big><a href="/projects" title="Back to projects"><< Back to projects</a></big></p>
+	<p><big><a href="/#projects" title="Back to projects"><< Back to projects</a></big></p>
 	<br/>
 	<br/>
 
@@ -223,7 +221,11 @@
 <script src="/js/bootstrap.min.js"></script>
 <script src="/js/library.js"></script>
 <script src="/js/stickyHeader.js"></script>
-<script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
+<!--<script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>-->
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="https://d3js.org/topojson.v2.min.js"></script>
+<script src="https://d3js.org/d3-drag.v1.min.js"></script>
+<script src="/js/travelMap.js"></script>
 	
 	</body>
 

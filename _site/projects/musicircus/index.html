@@ -7,9 +7,7 @@
 	<meta name="description" content="A project mixing arts and engineering.">
 	<meta name="author" content="Adélaïde Grimaud">
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
-	<!-- favicon
-	<link rel="shortcut icon" href="/img/ico/favicon.png">
-	-->
+	
 	<title>Musicircus | Adélaïde Grimaud</title>		
 	<!-- styles -->
 	<link href="/css/bootstrap.css" rel="stylesheet">
@@ -41,11 +39,11 @@
 			
 			<div class="header" id="header">
 	<h3 class="text-muted"><a href="/">Adélaïde Grimaud</a></h3>
-	<ul class="nav nav-pills center-pills">
+	<ul class="nav select-pills center-pills">
 		<li><a href="/" title="Home">Home</a></li>
-		<li class=""><a href="/projects" title="Projects">Projects</a></li>
+		<li class="active"><a href="/#projects" title="Projects">Projects</a></li>
 		<li class=""><a href="/influences" title="Influences">Influences</a></li>
-		<!--<li class=""><a href="/influences" title="Travels">Travels</a></li>-->
+		<!--<li class=""><a href="/travels" title="Travels">Travels</a></li>-->
 		<li><a href="/files/CV_A_Grimaud.pdf" target="_blank" title="Download CV as PDF">Download CV</a></li>
 	</ul>
 </div> <!-- /header -->
@@ -96,7 +94,7 @@
 		src="./resources/ficheChlani.png"/>
 	<figcaption>Explanatory sheet</figcaption>
 
-	<h3 style="color: #3F26BF;">Chladni figures workshop</h3>
+	<h4 style="color: #3F26BF;">Chladni figures workshop</h4>
 
 	<p>With this project, we wanted to illustrate the relationship between sounds and shapes. The Chladni figures are direct representations of nodes and antinodes of a sound wave. Different shapes can be made using sand on a plate vibrating at specific frequencies.</p>
 	<br/>
@@ -122,7 +120,7 @@
 	</div>
 	<br/>
 
-	<h3 style="color: #3AA655;">Piano workshop</h3>
+	<h4 style="color: #3AA655;">Piano workshop</h4>
 
 	<p>For this workshop, we linked sound with light. A piano was connected to spot lights which illuminate the space according to the note being played. Here we demonstrated the functioning of a MIDI controller, the data protocol DMX and LEDs to the public.</p>
 	<br/>
@@ -149,7 +147,7 @@
 		</figure>
 	</div>
 
-	<h3 style="color: #8F47B3;">The Vème workshop</h3>
+	<h4 style="color: #8F47B3;">The Vème workshop</h4>
 
 	<p>The Vème is an instrument invented during a previous collaboration between the <a href="https://artsetmetiers.fr/" target="_blank" title="Arts et Métiers">Ecole Nationale Supérieure d'Arts et Métiers</a> and the <a href="http://orchestrenational-lorraine.fr/" target="_blank" title="Orchestre">Orchestre National de Lorraine</a>.</p>
 	<p>For the exhibit, we asked a professional percussionist to join us and present the wide range of frequences the Vème can produce.</p>
@@ -184,7 +182,7 @@
 		</div>
 	</div>
 	<br/>
-	<p><big><a href="/projects" title="Back to projects"><< Back to projects</a></big></p>
+	<p><big><a href="/#projects" title="Back to projects"><< Back to projects</a></big></p>
 	<br/>
 	<br/>
 
@@ -220,7 +218,11 @@
 <script src="/js/bootstrap.min.js"></script>
 <script src="/js/library.js"></script>
 <script src="/js/stickyHeader.js"></script>
-<script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
+<!--<script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>-->
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="https://d3js.org/topojson.v2.min.js"></script>
+<script src="https://d3js.org/d3-drag.v1.min.js"></script>
+<script src="/js/travelMap.js"></script>
 	
 	</body>
 
