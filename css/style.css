@@ -120,6 +120,6 @@ img.icon { margin-right: auto; margin-left: auto; margin-top: auto; margin-botto
 
 
 /*Map*/
-path { fill: #ccc; stroke: #fff; }
+path { stroke: #fff; }
 path:hover { fill: red; }
 circle { fill: blue; }

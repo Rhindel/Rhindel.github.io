@@ -40,30 +40,48 @@
 			<div class="header" id="header">
 	<h3 class="text-muted"><a href="/">Adélaïde Grimaud</a></h3>
 	<ul class="nav select-pills center-pills">
-		<li><a href="/" title="Home">Home</a></li>
-		<li class="active"><a href="/#projects" title="Projects">Projects</a></li>
+		<li class="/projects/spine/"><a href="/" title="Home">Home</a></li>
 		<li class=""><a href="/influences" title="Influences">Influences</a></li>
-		<!--<li class=""><a href="/travels" title="Travels">Travels</a></li>-->
+		<!--<li class=""><a href="/playground" title="Travels">Playground</a></li>-->
 		<li><a href="/files/CV_A_Grimaud.pdf" target="_blank" title="Download CV as PDF">Download CV</a></li>
 	</ul>
 </div> <!-- /header -->
 
 			
 			<div class="spine">
-	<img
-		width=600px height=auto
-		class="title img-responsive center-block" alt="SPINE"
-		src="./resources/title.jpg"/>
+	<h2 style="text-align: center; font-size: 50px;">SPINE</h2>
 	<br/>
 
 	<iframe frameborder="0" width="840" height="540"  align="middle" alt="SPINE presentation"
 		src="https://www.youtube.com/embed/BQRSXNEVYvI">
 	</iframe>
 	<br/>
-	<p>The project SPINE (Structured Planning and Implementation of New Explorations).</p>
+	<p style="text-align: center;">The SPINE project (Structured Planning and Implementation of New Explorations) is one of the main project of the Center for Neurological Imaging, a research laboratory of the <a href="http://www.brighamandwomens.org/" target="_blank" title="BWH">Brigham and Women's Hospital</a>.</p>
+	<br/>
 
-	<div class="">
-		<p></p>
+	<div class="concept">
+		<h3>Concept</h3>
+		<p>SPINE is a "virtual laboratory" that wishes to empower anyone willing to advance science. Backed up with a database of more than 20,000 brain MRIs, it is at the same time an educational platform for the general public and a place where scientists can conduct experiments relying on crowdsouring. Experts save precious time as segmenting brain structures is very time-consuming.</p>
+		<p>A <a href="https://spinevirtuallab.org/public/#/index" target="_blank" title="SPINE">first version of the website</a> was implemented in 2013 and a <a href="http://game.spinevirtuallab.org/#" target="_blank" title="SPINE game">game version</a> was later developed.</p>
+	</div>
+	<br/>
+	<div class="project">
+		<h3>Project</h3>
+		<p>The SPINE website grew bigger than expected. As the original architecture of the code was not suitable for the  addition of multiple plugins throughout the years, it became difficult for developers to implement new features and also slowed down the user experience.</p>
+		<p>After finishing my master thesis on "Exploration and annotation of medical data" at the CNI, I was offered to stay in order to start the implementation of a new SPINE. At first unfamiliar with web development, I started learning how to use javascript libraries including React.js and Redux. The website is currently in development.</p>
+		<br/>
+
+
+		<p>The SPINE game was also pushed into a 3D environment by means of a plugin mirroring the screen of the computer onto a virtual screen in <i>Unity3D</i>.</p>
+		<br/>
+		<figure>
+			<img
+				width=600px height=auto
+				class="title img-responsive center-block" alt="Picture of the tactile table of the Institut Image."
+				src="./resources/vrSpineGame.png"/>
+			<figcaption>A player trying the SPINE game in virtual reality.</figcaption>
+		</figure>
+
 
 	</div>
 
@@ -72,17 +90,18 @@
 
 	<div class="row">
 		<div class="col-sm-2 col-sm-offset-3">
-			<img
-				width=150px height=auto
-				class="title img-responsive center-block" alt="logo CNI"
-				src="../vrSurgery/resources/logoCNI.png"/>		
-		</div>
-		<div class="col-sm-2">
 			<br/>
 			<img
 				width=300px height=auto
 				class="title img-responsive center-block" alt="logo BWH"
 				src="../vrSurgery/resources/logoBWH.jpg"/>
+				
+		</div>
+		<div class="col-sm-2">
+			<img
+				width=150px height=auto
+				class="title img-responsive center-block" alt="logo CNI"
+				src="../vrSurgery/resources/logoCNI.png"/>	
 		</div>
 
 		<div class="col-sm-2">
@@ -97,8 +116,6 @@
 	<p><big><a href="/#projects" title="Back to projects"><< Back to projects</a></big></p>
 	<br/>
 	<br/>
-
-
 
 </div>
 			
@@ -136,7 +153,7 @@
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script src="https://d3js.org/topojson.v2.min.js"></script>
 <script src="https://d3js.org/d3-drag.v1.min.js"></script>
-<script src="/js/travelMap.js"></script>
+<script type="text/javascript" src="/js/travelMap.js"></script>
 	
 	</body>
 

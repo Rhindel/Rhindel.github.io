@@ -1,0 +1,319 @@
+{
+	"trips": [
+		{ 
+			"name":"United Kingdom roadtrip",
+			"date": "2008-07",
+			"stops":[
+				{
+					"country":"United Kingdom",
+					"city":"Birmingham",
+					"coordinates":[52.48624299999999,-1.8904009999999971]
+				},{
+					"country":"United Kingdom",
+					"city":"Liverpool",
+					"coordinates":[53.4083714,-2.9915726000000404]
+				},{
+					"country":"United Kingdom",
+					"city":"Manchester",
+					"coordinates":[53.4807593,-2.2426305000000184]
+				},{
+					"country":"United Kingdom",
+					"city":"Glasgow",
+					"coordinates":[55.864237,-4.251805999999988]
+				},{
+					"country":"United Kingdom",
+					"city":"Edinburgh",
+					"coordinates":[55.953252,-3.188266999999996]
+				},{
+					"country":"United Kingdom",
+					"city":"London",
+					"coordinates":[51.5073509,-0.12775829999998223]
+				}
+			]
+		},{ 
+			"name":"",
+			"date": "2009-07",
+			"stops":[
+				{
+					"country":"Spain",
+					"city":"Barcelona",
+					"coordinates":[41.38506389999999,2.1734034999999494]
+				},{
+					"country":"Spain",
+					"city":"Granada",
+					"coordinates":[37.1773363,-3.5985570999999936]
+				},{
+					"country":"Morocco",
+					"city":"Tangier",
+					"coordinates":[35.7594651,-5.833954299999959]
+				},{
+					"country":"Morocco",
+					"city":"Marrakesh",
+					"coordinates":[31.6294723,-7.981084499999952]
+				},{
+					"country":"Spain",
+					"city":"Seville",
+					"coordinates":[37.3890924,-5.984458899999936]
+				},{
+					"country":"Portugal",
+					"city":"Lisbon",
+					"coordinates":[38.7222524,-9.139336599999979]
+				},{
+					"country":"Spain",
+					"city":"Madrid",
+					"coordinates":[40.4167754,-3.7037901999999576]
+				}
+			]
+		},{ 
+			"name":"Asia: first contact",
+			"date": "2010-02",
+			"stops":[
+				{
+					"country":"Thailand",
+					"city":"Bangkok",
+					"coordinates":[13.7563309,100.50176510000006]
+				},{
+					"country":"Thailand",
+					"city":"Phi Phi islands",
+					"coordinates":[7.740737999999999,98.77841000000001]
+				}
+			]
+		},{ 
+			"name":"Canadian summer",
+			"date": "2010-08",
+			"stops":[
+				{
+					"country":"Canada",
+					"city":"Québec City",
+					"coordinates":[46.8138783,-71.2079809]
+				},{
+					"country":"Canada",
+					"city":"Saint John",
+					"coordinates":[45.2733153,-66.063308]
+				},{
+					"country":"Canada",
+					"city":"Montreal",
+					"coordinates":[45.5016889,-73.56725599999999]
+				}
+			]
+		},{ 
+			"name":"Canadian Thanksgiving",
+			"date": "2010-10",
+			"stops":[
+				{
+					"country":"Canada",
+					"city":"Toronto",
+					"coordinates":[43.653226,-79.38318429999998]
+				},{
+					"country":"Canada",
+					"city":"Niagara Falls",
+					"coordinates":[43.0895577,-79.08494359999997]
+				}
+			]
+		},{ 
+			"name":"Solidarity project",
+			"date": "2012-07",
+			"stops":[
+				{
+					"country":"Madagascar",
+					"city":"Antananarivo",
+					"coordinates":[-18.8791902,47.50790549999999]
+				},{
+					"country":"Madagascar",
+					"city":"Ambohimahasina",
+					"coordinates":[-21.1072249,47.210581400000024]
+				},{
+					"country":"Madagascar",
+					"city":"Antsirabe",
+					"coordinates":[-19.8730077,47.029116199999976]
+				},{
+					"country":"Madagascar",
+					"city":"Fianarantsoa",
+					"coordinates":[-21.4546147,47.08750450000002]
+				},{
+					"country":"Madagascar",
+					"city":"Manakara",
+					"coordinates":[-22.1432288,48.00598249999996]
+				}
+			]
+		},{ 
+			"name":"",
+			"date": "2013-07",
+			"stops":[
+				{
+					"country":"Namibia",
+					"city":"Windhoek",
+					"coordinates":[-22.5608807,17.0657549]
+				},{
+					"country":"Namibia",
+					"city":"Swakopmund",
+					"coordinates":[-22.6467427,14.6004911]
+				},{
+					"country":"Namibia",
+					"city":"Etosha",
+					"coordinates":[-19.1150405,16.13126280000006]
+				}
+			]
+		},{ 
+			"name":"",
+			"date": "2014-07",
+			"stops":[
+				{
+					"country":"Malaysia",
+					"city":"Kuala Lumpur",
+					"coordinates":[3.139003,101.68685499999992]
+				},{
+					"country":"Malaysia",
+					"city":"George Town",
+					"coordinates":[5.4356367,100.30909999999994]
+				},{
+					"country":"Singapore",
+					"city":"Singapore",
+					"coordinates":[1.3553794,103.86774439999999]
+				},{
+					"country":"Malaysia",
+					"city":"Malacca",
+					"coordinates":[2.189594,102.25008679999996]
+				}
+			]
+		},{ 
+			"name":"Est Australia roadtrip",
+			"date": "2015-07",
+			"stops":[
+				{
+					"country":"Australia",
+					"city":"Brisbane",
+					"coordinates":[-27.4697707,153.02512350000006]
+				},{
+					"country":"Australia",
+					"city":"Rockhampton",
+					"coordinates":[-23.3790772,150.51001599999995]
+				},{
+					"country":"Australia",
+					"city":"Townsvile",
+					"coordinates":[-19.2589635,146.81694830000004]
+				},{
+					"country":"Australia",
+					"city":"Cairns",
+					"coordinates":[-16.9185514,145.77805480000006]
+				},{
+					"country":"Australia",
+					"city":"Sidney",
+					"coordinates":[-33.8688197,151.20929550000005]
+				}
+			]
+		},{ 
+			"name":"",
+			"date": "2014-11",
+			"stops":[
+				{
+					"country":"Germany",
+					"city":"Dresden",
+					"coordinates":[51.05040880000001,13.737262099999953]
+				}
+			]
+		},{ 
+			"name":"",
+			"date": ["2013-02", "2016-05"],
+			"stops":[
+				{
+					"country":"Germany",
+					"city":"Berlin",
+					"coordinates":[52.52000659999999,13.404953999999975]
+				}
+			]
+		},{ 
+			"name":"",
+			"date": ["2017-06", "2017-08", "2017-09"] ,
+			"stops":[
+				{
+					"country":"United States of America",
+					"city":"New York City",
+					"coordinates":[40.7127753,-74.0059728]
+				}
+			]
+		},{ 
+			"name":"",
+			"date": "2017-12",
+			"stops":[
+				{
+					"country":"United States of America",
+					"city":"Chicago",
+					"coordinates":[41.8781136,-87.62979819999998]
+				}
+			]
+		},{ 
+			"name":"",
+			"date": "2018-01",
+			"stops":[
+				{
+					"country":"Mexico",
+					"city":"Guadalajara",
+					"coordinates":[20.65969879999999,-103.34960920000003]
+				},{
+					"country":"Mexico",
+					"city":"Playa del Carmen",
+					"coordinates":[20.6295586,-87.07388509999998]
+				}
+			]
+		},{ 
+			"name":"Accross America",
+			"date": "2018-03",
+			"stops":[
+				{
+					"country":"United States of America",
+					"city":"New York City",
+					"coordinates":[40.7127753,-74.0059728]
+				},{
+					"country":"United States of America",
+					"city":"Washington",
+					"coordinates":[38.9071923,-77.03687070000001]
+				},{
+					"country":"United States of America",
+					"city":"New Orleans",
+					"coordinates":[29.95106579999999,-90.0715323]
+				},{
+					"country":"United States of America",
+					"city":"Los Angeles",
+					"coordinates":[34.0522342,-118.2436849]
+				},{
+					"country":"Mexico",
+					"city":"Guadalajara",
+					"coordinates":[20.65969879999999,-103.34960920000003]
+				},{
+					"country":"Mexico",
+					"city":"Mexico city",
+					"coordinates":[19.4326077,-99.13320799999997]
+				},{
+					"country":"Guatemala",
+					"city":"Guatemala City",
+					"coordinates":[14.6349149,-90.5068824]
+				},{
+					"country":"Colombia",
+					"city":"Bogota",
+					"coordinates":[4.710988599999999,-74.072092]
+				},{
+					"country":"Peru",
+					"city":"Lima",
+					"coordinates":[-12.0463667,-77.0427891]
+				},{
+					"country":"Bolivia",
+					"city":"La Paz",
+					"coordinates":[-16.489689,-68.11929359999999]
+				},{
+					"country":"Chile",
+					"city":"Santiago",
+					"coordinates":[-33.4378305,-70.65044920000003]
+				},{
+					"country":"Argentina",
+					"city":"Ushuaia",
+					"coordinates":[-54.8019121,-68.30295109999997]
+				},{
+					"country":"Argentina",
+					"city":"Buenos Aires",
+					"coordinates":[-34.60368440000001,-58.381559100000004]
+				}
+			]
+		}
+	]
+}
