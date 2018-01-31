@@ -75,10 +75,10 @@ console.log(topojson.feature(world, world.objects.cities).features)
     .enter().append("circle")
       .attr("class", function(d) { return "city " + d.city; })
       .attr("cx", function(d) {
-                         return projection(d.coordinates)[0];
+                         return projection(d.coordinates)[1];
                  })
                  .attr("cy", function(d) {
-                         return projection(d.coordinates)[1];
+                         return projection(d.coordinates)[0];
                  })
       .attr("r", 1);
    
