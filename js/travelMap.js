@@ -1,23 +1,52 @@
 var width = 970;
 var height = width*0.45;
 
+var projection = d3.geoEquirectangular()
+    .scale(180);
+
+var path = d3.geoPath()
+  .projection(projection);
+
+var zoom = d3.zoom()
+                .scaleExtent([1, 10])
+                .on("zoom", zoomed);
+
+//Main objects *****************************************************************
 var svg = d3.select(".map").append("svg")
               .attr("width", width)
               .attr("height", height)
-              .call(d3.zoom().on("zoom", function () {
-                  svg.attr("transform", d3.event.transform)
-                }));
+              .call(zoom);//free zoom
+
+svg.append("rect")
+    .attr("class", "zoom-container")
+    .attr("width", width)
+    .attr("height", height)
+    .attr("fill", "none");
+
+var gCountries = svg.append("g")
+      .attr("class", "countries");
+var gCities = svg.append("g")
+    .attr("class", "cities");
+
+var tooltip = d3.select(".map")
+                .append("div")
+                .attr("class", "tooltip")
+                .style("opacity", 0);
 
 
-//Retrieve and organize travels informations             
+//Retrieve and organize travels informations ***********************************          
 var visitedCountries = [];
 var visitedPlaces = [];
+var trips = [];
+
 $.getJSON("./resources/travels.json", function(data) {  
   $.each(data.trips, function(i, trip){
-    $.each(trip.stops, function(j, val){
-      visitedPlaces.push(val);
-      if(!visitedCountries.includes(val.country)) {
-        visitedCountries.push(val.country);
+  trips.push(trip);
+    $.each(trip.stops, function(j, stop){
+      //Slow, need to change
+      visitedPlaces.push({"name": trip.name,"date": trip.date, "country": stop.country, "city": stop.city, "coordinates": stop.coordinates});      
+      if(!visitedCountries.includes(stop.country)) {
+        visitedCountries.push(stop.country);
       };
     });
   });  
@@ -25,71 +54,108 @@ $.getJSON("./resources/travels.json", function(data) {
     console.log( "second success");
   })
   .fail( function(d, textStatus, error) {
-        console.error("getJSON failed, status: " + textStatus + ", error: "+error)
+        console.error("JSON failed, status: " + textStatus + ", error: "+ error)
     })
   .always(function() {
     console.log( "complete" );
   });
 
-console.log("countries: ", visitedCountries);
+console.log("countries: ", trips);
+console.log("New JSON: ", visitedCountries);
 
 
-var projection = d3.geoEquirectangular()
-    .scale(180);
 
-var path = d3.geoPath()
-	.projection(projection);
-
+// Draw map ********************************************************************
 
 d3.json("./resources/worldNoATA.json", function(error, world) {
   if (error) return console.error("error: ", error);
-  console.log("world: ", world);
-  //console.log(topojson.feature(world, world.objects.countries).features);
-  var countries = topojson.feature(world, world.objects.countries).features;
-  console.log("topo country", countries)
 
-//Draw andd color countries
-  svg.append("g")
-      .attr("class", "countries")
-    .selectAll("path")
+  var countries = topojson.feature(world, world.objects.countries).features;
+
+//Draw and color countries
+  gCountries.selectAll("path")
     .data(countries)
     .enter().append("path")
     .attr("class", "country")
       .attr("id", function(d) { return d.properties.NAME; })
       .attr("d", path)
-      .attr("fill", function(d) {
-        if (visitedCountries.includes(d.properties.NAME)){
-          return "green";
-        } else {
-          return "#ccc";
-        };
+      .attr("fill", colorCountries)
+      .on("mouseover", showTooltip)
+      .on("mousemove", followTooltip)
+      .on("mouseout", hideTooltip);
 
-      });
+
 
 //Draw and color cities
-console.log(topojson.feature(world, world.objects.cities).features)
-  svg.append("g")
-      .attr("class", "cities")
-    .selectAll("circle")
-    .data(visitedPlaces)
-    .enter().append("circle")
-      .attr("class", function(d) { return "city " + d.city; })
-      .attr("cx", function(d) {
-                         return projection(d.coordinates)[1];
-                 })
-                 .attr("cy", function(d) {
-                         return projection(d.coordinates)[0];
-                 })
-      .attr("r", 1);
+  gCities.selectAll("circle")
+  .data(visitedPlaces)
+  .enter().append("circle")
+    .attr("class", function(d) { return "city " + d.city; })
+    .attr("r", 3)
+    .attr("transform", function(d) {
+      return "translate(" + projection(d.coordinates) + ")";
+    });
+  
    
 });
 
+//Visual behavior functions ***************************************************
 
-// var visitedCountries = d3.json("./resources/travels.json", function(error, me){
-//   if(error) return console.error("error: ", error)
+function colorCountries(d){
+  if (visitedCountries.includes(d.properties.NAME)){
+    return "#428bca";
+  } else {
+    return "#ccc";
+  };
+};
 
-//   console.log("me: ", me);
-//   console.log("me countries: ", topojson.feature(world, me.objects.countries).trip);
-// });
+function showTooltip(){
+  tooltip.transition()
+    .duration(200)
+    .style("opacity", .9);
+}
+
+function followTooltip(d){
+  var i = 0;
+  
+  do {
+    console.log("id: ", this.id, " country: ", visitedPlaces[i].country);
+    if (d.properties.NAME == visitedPlaces[i].country) {
+      tooltip .html(visitedPlaces[i].name, "<br/>",visitedPlaces[i].date)
+        .style("left", (d3.event.pageX) + "px")
+        .style("top", (d3.event.pageY - 25) + "px");
+
+    };
+    i++;
+  } while (i < visitedPlaces.length-1 || d.properties.NAME == visitedPlaces[i].country);
+      
+};
+
+function hideTooltip(){
+    tooltip.transition()
+      .duration(500)
+      .style("opacity", 0);
+};
 
 
+//Zoom functions****************************************************************
+
+function zoomed() {
+  //For countries
+  //scale factor
+  gCountries.style("stroke-width", 1 / d3.event.transform.k + "px");
+  gCountries.attr("transform", d3.event.transform);
+
+  //For cities
+  gCities.selectAll("circle").attr("r", 3/ d3.event.transform.k); 
+  gCities.attr("transform", d3.event.transform);
+};
+
+function resetZoom() {
+  console.log("click!");
+
+  svg.transition()
+      .duration(750)
+      .call( zoom.transform, d3.zoomIdentity );
+
+};

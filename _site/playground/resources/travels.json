@@ -7,61 +7,61 @@
 				{
 					"country":"United Kingdom",
 					"city":"Birmingham",
-					"coordinates":[52.48624299999999,-1.8904009999999971]
+					"coordinates":[-1.8904009999999971,52.48624299999999]
 				},{
 					"country":"United Kingdom",
 					"city":"Liverpool",
-					"coordinates":[53.4083714,-2.9915726000000404]
+					"coordinates":[-2.9915726000000404,53.4083714]
 				},{
 					"country":"United Kingdom",
 					"city":"Manchester",
-					"coordinates":[53.4807593,-2.2426305000000184]
+					"coordinates":[-2.2426305000000184,53.4807593]
 				},{
 					"country":"United Kingdom",
 					"city":"Glasgow",
-					"coordinates":[55.864237,-4.251805999999988]
+					"coordinates":[-4.251805999999988,55.864237]
 				},{
 					"country":"United Kingdom",
 					"city":"Edinburgh",
-					"coordinates":[55.953252,-3.188266999999996]
+					"coordinates":[-3.188266999999996,55.953252]
 				},{
 					"country":"United Kingdom",
 					"city":"London",
-					"coordinates":[51.5073509,-0.12775829999998223]
+					"coordinates":[-0.12775829999998223,51.5073509]
 				}
 			]
 		},{ 
-			"name":"",
+			"name":"Nearby Gibraltar",
 			"date": "2009-07",
 			"stops":[
 				{
 					"country":"Spain",
 					"city":"Barcelona",
-					"coordinates":[41.38506389999999,2.1734034999999494]
+					"coordinates":[2.1734034999999494,41.38506389999999]
 				},{
 					"country":"Spain",
 					"city":"Granada",
-					"coordinates":[37.1773363,-3.5985570999999936]
+					"coordinates":[-3.5985570999999936,37.1773363]
 				},{
 					"country":"Morocco",
 					"city":"Tangier",
-					"coordinates":[35.7594651,-5.833954299999959]
+					"coordinates":[-5.833954299999959,35.7594651]
 				},{
 					"country":"Morocco",
 					"city":"Marrakesh",
-					"coordinates":[31.6294723,-7.981084499999952]
+					"coordinates":[-7.981084499999952,31.6294723]
 				},{
 					"country":"Spain",
 					"city":"Seville",
-					"coordinates":[37.3890924,-5.984458899999936]
+					"coordinates":[-5.984458899999936,37.3890924]
 				},{
 					"country":"Portugal",
 					"city":"Lisbon",
-					"coordinates":[38.7222524,-9.139336599999979]
+					"coordinates":[-9.139336599999979,38.7222524]
 				},{
 					"country":"Spain",
 					"city":"Madrid",
-					"coordinates":[40.4167754,-3.7037901999999576]
+					"coordinates":[-3.7037901999999576,40.4167754]
 				}
 			]
 		},{ 
@@ -71,11 +71,11 @@
 				{
 					"country":"Thailand",
 					"city":"Bangkok",
-					"coordinates":[13.7563309,100.50176510000006]
+					"coordinates":[100.50176510000006,13.7563309]
 				},{
 					"country":"Thailand",
 					"city":"Phi Phi islands",
-					"coordinates":[7.740737999999999,98.77841000000001]
+					"coordinates":[98.77841000000001,7.740737999999999]
 				}
 			]
 		},{ 
@@ -85,15 +85,15 @@
 				{
 					"country":"Canada",
 					"city":"Québec City",
-					"coordinates":[46.8138783,-71.2079809]
+					"coordinates":[-71.2079809,46.8138783]
 				},{
 					"country":"Canada",
 					"city":"Saint John",
-					"coordinates":[45.2733153,-66.063308]
+					"coordinates":[-66.063308,45.2733153]
 				},{
 					"country":"Canada",
 					"city":"Montreal",
-					"coordinates":[45.5016889,-73.56725599999999]
+					"coordinates":[-73.56725599999999,45.5016889]
 				}
 			]
 		},{ 
@@ -103,11 +103,11 @@
 				{
 					"country":"Canada",
 					"city":"Toronto",
-					"coordinates":[43.653226,-79.38318429999998]
+					"coordinates":[-79.38318429999998,43.653226]
 				},{
 					"country":"Canada",
 					"city":"Niagara Falls",
-					"coordinates":[43.0895577,-79.08494359999997]
+					"coordinates":[-79.08494359999997,43.0895577]
 				}
 			]
 		},{ 
@@ -117,143 +117,143 @@
 				{
 					"country":"Madagascar",
 					"city":"Antananarivo",
-					"coordinates":[-18.8791902,47.50790549999999]
+					"coordinates":[47.50790549999999,-18.8791902]
 				},{
 					"country":"Madagascar",
 					"city":"Ambohimahasina",
-					"coordinates":[-21.1072249,47.210581400000024]
+					"coordinates":[47.210581400000024,-21.1072249]
 				},{
 					"country":"Madagascar",
 					"city":"Antsirabe",
-					"coordinates":[-19.8730077,47.029116199999976]
+					"coordinates":[47.029116199999976,-19.8730077]
 				},{
 					"country":"Madagascar",
 					"city":"Fianarantsoa",
-					"coordinates":[-21.4546147,47.08750450000002]
+					"coordinates":[47.08750450000002,-21.4546147]
 				},{
 					"country":"Madagascar",
 					"city":"Manakara",
-					"coordinates":[-22.1432288,48.00598249999996]
+					"coordinates":[48.00598249999996,-22.1432288]
 				}
 			]
 		},{ 
-			"name":"",
+			"name":"Lost in the desert",
 			"date": "2013-07",
 			"stops":[
 				{
 					"country":"Namibia",
 					"city":"Windhoek",
-					"coordinates":[-22.5608807,17.0657549]
+					"coordinates":[17.0657549,-22.5608807]
 				},{
 					"country":"Namibia",
 					"city":"Swakopmund",
-					"coordinates":[-22.6467427,14.6004911]
+					"coordinates":[14.6004911,-22.6467427]
 				},{
 					"country":"Namibia",
 					"city":"Etosha",
-					"coordinates":[-19.1150405,16.13126280000006]
+					"coordinates":[16.13126280000006,-19.1150405]
 				}
 			]
 		},{ 
-			"name":"",
+			"name":"South-East Asia",
 			"date": "2014-07",
 			"stops":[
 				{
 					"country":"Malaysia",
 					"city":"Kuala Lumpur",
-					"coordinates":[3.139003,101.68685499999992]
+					"coordinates":[101.68685499999992,3.139003]
 				},{
 					"country":"Malaysia",
 					"city":"George Town",
-					"coordinates":[5.4356367,100.30909999999994]
+					"coordinates":[100.30909999999994,5.4356367]
 				},{
 					"country":"Singapore",
 					"city":"Singapore",
-					"coordinates":[1.3553794,103.86774439999999]
+					"coordinates":[103.86774439999999,1.3553794]
 				},{
 					"country":"Malaysia",
 					"city":"Malacca",
-					"coordinates":[2.189594,102.25008679999996]
+					"coordinates":[102.25008679999996,2.189594]
 				}
 			]
 		},{ 
-			"name":"Est Australia roadtrip",
+			"name":"East Australia roadtrip",
 			"date": "2015-07",
 			"stops":[
 				{
 					"country":"Australia",
 					"city":"Brisbane",
-					"coordinates":[-27.4697707,153.02512350000006]
+					"coordinates":[153.02512350000006,-27.4697707]
 				},{
 					"country":"Australia",
 					"city":"Rockhampton",
-					"coordinates":[-23.3790772,150.51001599999995]
+					"coordinates":[150.51001599999995,-23.3790772]
 				},{
 					"country":"Australia",
 					"city":"Townsvile",
-					"coordinates":[-19.2589635,146.81694830000004]
+					"coordinates":[146.81694830000004,-19.2589635]
 				},{
 					"country":"Australia",
 					"city":"Cairns",
-					"coordinates":[-16.9185514,145.77805480000006]
+					"coordinates":[145.77805480000006,-16.9185514]
 				},{
 					"country":"Australia",
 					"city":"Sidney",
-					"coordinates":[-33.8688197,151.20929550000005]
+					"coordinates":[151.20929550000005,-33.8688197]
 				}
 			]
 		},{ 
-			"name":"",
+			"name":"Post-war reconstruction",
 			"date": "2014-11",
 			"stops":[
 				{
 					"country":"Germany",
 					"city":"Dresden",
-					"coordinates":[51.05040880000001,13.737262099999953]
+					"coordinates":[13.737262099999953,51.05040880000001]
 				}
 			]
 		},{ 
-			"name":"",
+			"name":"Wo ist mein Fahrrad?",
 			"date": ["2013-02", "2016-05"],
 			"stops":[
 				{
 					"country":"Germany",
 					"city":"Berlin",
-					"coordinates":[52.52000659999999,13.404953999999975]
+					"coordinates":[13.404953999999975,52.52000659999999]
 				}
 			]
 		},{ 
-			"name":"",
+			"name":"Big Apple",
 			"date": ["2017-06", "2017-08", "2017-09"] ,
 			"stops":[
 				{
 					"country":"United States of America",
 					"city":"New York City",
-					"coordinates":[40.7127753,-74.0059728]
+					"coordinates":[-74.0059728,40.7127753]
 				}
 			]
 		},{ 
-			"name":"",
+			"name":"Great lakes",
 			"date": "2017-12",
 			"stops":[
 				{
 					"country":"United States of America",
 					"city":"Chicago",
-					"coordinates":[41.8781136,-87.62979819999998]
+					"coordinates":[-87.62979819999998,41.8781136]
 				}
 			]
 		},{ 
-			"name":"",
+			"name":"Trailer",
 			"date": "2018-01",
 			"stops":[
 				{
 					"country":"Mexico",
 					"city":"Guadalajara",
-					"coordinates":[20.65969879999999,-103.34960920000003]
+					"coordinates":[-103.34960920000003,20.65969879999999]
 				},{
 					"country":"Mexico",
 					"city":"Playa del Carmen",
-					"coordinates":[20.6295586,-87.07388509999998]
+					"coordinates":[-87.07388509999998,20.6295586]
 				}
 			]
 		},{ 
@@ -263,55 +263,55 @@
 				{
 					"country":"United States of America",
 					"city":"New York City",
-					"coordinates":[40.7127753,-74.0059728]
+					"coordinates":[-74.0059728,40.7127753]
 				},{
 					"country":"United States of America",
 					"city":"Washington",
-					"coordinates":[38.9071923,-77.03687070000001]
+					"coordinates":[-77.03687070000001,38.9071923]
 				},{
 					"country":"United States of America",
 					"city":"New Orleans",
-					"coordinates":[29.95106579999999,-90.0715323]
+					"coordinates":[-90.0715323,29.95106579999999]
 				},{
 					"country":"United States of America",
 					"city":"Los Angeles",
-					"coordinates":[34.0522342,-118.2436849]
+					"coordinates":[-118.2436849,34.0522342]
 				},{
 					"country":"Mexico",
 					"city":"Guadalajara",
-					"coordinates":[20.65969879999999,-103.34960920000003]
+					"coordinates":[-103.34960920000003,20.65969879999999]
 				},{
 					"country":"Mexico",
 					"city":"Mexico city",
-					"coordinates":[19.4326077,-99.13320799999997]
+					"coordinates":[-99.13320799999997,19.4326077]
 				},{
 					"country":"Guatemala",
 					"city":"Guatemala City",
-					"coordinates":[14.6349149,-90.5068824]
+					"coordinates":[-90.5068824,14.6349149]
 				},{
 					"country":"Colombia",
 					"city":"Bogota",
-					"coordinates":[4.710988599999999,-74.072092]
+					"coordinates":[-74.072092,4.710988599999999]
 				},{
 					"country":"Peru",
 					"city":"Lima",
-					"coordinates":[-12.0463667,-77.0427891]
+					"coordinates":[-77.0427891,-12.0463667]
 				},{
 					"country":"Bolivia",
 					"city":"La Paz",
-					"coordinates":[-16.489689,-68.11929359999999]
+					"coordinates":[-68.11929359999999,-16.489689]
 				},{
 					"country":"Chile",
 					"city":"Santiago",
-					"coordinates":[-33.4378305,-70.65044920000003]
+					"coordinates":[-70.65044920000003,-33.4378305]
 				},{
 					"country":"Argentina",
 					"city":"Ushuaia",
-					"coordinates":[-54.8019121,-68.30295109999997]
+					"coordinates":[-68.30295109999997,-54.8019121]
 				},{
 					"country":"Argentina",
 					"city":"Buenos Aires",
-					"coordinates":[-34.60368440000001,-58.381559100000004]
+					"coordinates":[-58.381559100000004,-34.60368440000001]
 				}
 			]
 		}
