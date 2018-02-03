@@ -109,25 +109,29 @@ function colorCountries(d){
   };
 };
 
-function showTooltip(){
+function showTooltip(d){
+  if (visitedCountries.includes(d.properties.NAME)){
   tooltip.transition()
     .duration(200)
     .style("opacity", .9);
+  } else {
+    hideTooltip();
+  };
 }
 
 function followTooltip(d){
   var i = 0;
-  
   do {
-    console.log("id: ", this.id, " country: ", visitedPlaces[i].country);
     if (d.properties.NAME == visitedPlaces[i].country) {
-      tooltip .html(visitedPlaces[i].name, "<br/>",visitedPlaces[i].date)
+      tooltip .html("Trip: " + visitedPlaces[i].name + 
+                    "<br/>Date: " + visitedPlaces[i].date +
+                    "<br/>Country: " + d.properties.NAME)
         .style("left", (d3.event.pageX) + "px")
         .style("top", (d3.event.pageY - 25) + "px");
 
     };
     i++;
-  } while (i < visitedPlaces.length-1 || d.properties.NAME == visitedPlaces[i].country);
+  } while (i < visitedPlaces.length || d.properties.NAME == visitedPlaces[i].country);    
       
 };
 
