@@ -1,7 +1,8 @@
-@import url(http://fonts.googleapis.com/css?family=Merriweather:300,300italic,400,400italic,700,700italic);
-@import url(http://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Merriweather:300,300italic,400,400italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Encode+Sans);
 
-body { padding-top: 20px; padding-bottom: 40px; font-family: 'Merriweather', Georgia, Times; font-size: 16px; width: 100%; height:100%; }
+body { padding-top: 20px; padding-bottom: 40px; font-family: 'Encode Sans', sans-serif;; font-size: 16px; width: 100%; height:100%; }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { font-family: 'Merriweather', Georgia, Times; font-weight: 700;}
 h2, h3 { font-family: 'Montserrat', Helvetica, sans-serif; text-transform: uppercase; text-decoration: none; text-transform: uppercase; font-weight: normal; }
@@ -24,8 +25,8 @@ ul { color: #777; }
 .sticky + .container { padding-top: 300px; }
 
 /* Navigation */
-h3.text-muted a {text-decoration: none; color: #999999;}
-h3.text-muted a:hover { text-decoration: none; color: #0088cc; }
+h2.text-muted a {text-decoration: none; color: #999999; font-size: 0.8em; }
+h2.text-muted a:hover { text-decoration: none; color: #0088cc; }
 
 img.avatar { margin-bottom: 30px; }
 		
